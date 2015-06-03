@@ -87,7 +87,7 @@ namespace Bresenhams_line
         {
             char[,] fld = new char[10, 10];
             Char_Init(fld);
-            Console.WriteLine("Input x1,y1,x2,y2");
+            Console.WriteLine("Input x1,y1,x2,y2 (numbers in the range [0;9])");
             int x1, x2, y1, y2;
             x1 = Convert.ToInt32(Console.ReadLine());
             y1 = Convert.ToInt32(Console.ReadLine());
